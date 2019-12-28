@@ -1,5 +1,10 @@
 package com.hackerrank;
 
+import java.io.*;
+import java.math.*;
+import java.text.*;
+import java.util.*;
+import java.util.regex.*;
 public class CountVallyProblem {
 
     // Complete the countingValleys function below.
@@ -19,7 +24,7 @@ public class CountVallyProblem {
            vallyCount++;
        }
     }
-    return vallyCount
+    return vallyCount;
     }
 
     private static final Scanner scanner = new Scanner(System.in);
